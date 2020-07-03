@@ -1,0 +1,93 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+section {
+  font-family: 'Lato', sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  margin: 0 0 25px 0;
+  padding: 0;
+  font-size: 26px;
+  color: #33345b;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+
+  & .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  & .form-control:focus {
+    z-index: 2;
+  }
+
+  & input[type="email"], input[type="password"], {
+    width: 100%;
+    border: 2px solid #2b354e;
+    color: #6f757c;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    background-color: #1d1e2a;
+  }
+
+  & input[type="email"] {
+    margin-bottom: -1px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  & input[type="password"] {
+    border-top: none;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  & button {
+    font-family: 'Lato', sans-serif;
+    background: rgb(187, 93, 223);
+    background: linear-gradient(23deg, rgba(187, 93, 223, 1) 0%, rgba(205, 90, 198, 1) 49%);
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  & p {
+    font-family: 'Lato', sans-serif;
+    margin-top: 75px;
+    font-size: 12px;
+    color: #575c64;
+  }
+}
